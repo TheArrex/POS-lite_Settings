@@ -12,6 +12,12 @@ npm install
 npm run dev
 ```
 
+### Compile Tailwind
+
+```sh
+npx tailwindcss -i ./src/assets/base.css -o ./dist/base.css --watch
+```
+
 ### Compile and Minify for Production
 
 ```sh
